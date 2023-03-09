@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<style>
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+    body {
+        background-color:#F6F6F6;
+        padding:50px 25px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        max-width: 770px;
+        width: 100%;
+        margin:0 auto;
+        padding: 50px;
+        box-shadow: 20px 10px 10px rgba(0,0,0,0.3), -20px -10px 20px rgba(255,255,255);
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 25%;
+    }
+
+    .title{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        border-bottom: 2px solid black;
+        margin-bottom: 20px;
+    }
+
+    .title h1{
+        font-size: 120px;
+        font-weight: 600;
+    }
+
+    .title h2{
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .subtitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+
+    }
+
+    .subtitle .subtitle__infos{
+        display: flex;
+    }
+
+    .subtitle .subtitle__infos span{
+        margin-bottom: 3px;
+    }
+
+    .subtitle .subtitle__infos .subtitle__info,
+    .subtitle .subtitle__infos .subtitle__color
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subtitle .subtitle__infos .subtitle__info{
+        margin-right: 80px;
+    }
+
+
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+
+    main .circle{
+        display: flex;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        margin: 15px 10px;;
+    }
+
+    .blue{
+        background-color: lightblue;
+    }
+
+    .gray{
+        background-color: darkgray;
+
+    }
+
+    .green{
+        background-color: green;
+    }
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+    <div class="title">
+        <h1>Paris</h1>
+        <h2>06.</h2>
+    </div>
+    <div class="subtitle">
+        <div class="subtitle__infos">
+            <div class="subtitle__info">
+                <span>Country</span>
+                <span>France</span>
+                <span>Population</span>
+                <span>2.249.975</span>
+                <span>Coordinates</span>
+                <span>48"51'24°N</span>
+                <span>2"21'03°E</span>
+            </div>
+            <div class="subtitle__color">
+                <span>Colours</span>
+                <span>C23 M0 Y0 K0</span>
+                <span>C0 M0 Y0 K74</span>
+                <span>C100 M0 Y64 K0</span>
+            </div>
+        </div>
+        <div class="subtitle__link">
+            <span>www.nickbarclaydesigns</span>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <div class="circle blue"></div>
+    <div class="circle blue"></div>
+    <div class="circle blue"></div>
+
+    <div class="circle gray"></div>
+    <div class="circle gray"></div>
+    <div class="circle gray"></div>
+
+
+    <div class="circle green"></div>
+    <div class="circle green"></div>
+    <div class="circle green"></div>
+
+
+
+
+</main>
+</body>
+
+</html>
